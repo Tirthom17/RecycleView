@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    >
+
+
+    <ImageView
+        android:background="@drawable/shape"
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-27dp"
+        android:layout_toEndOf="@+id/image"
+        android:layout_toRightOf="@+id/image"
+        android:paddingStart="10dp"
+        android:paddingLeft="5dp"
+        android:text="Product Heading"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/heading"
+        android:layout_alignLeft="@+id/heading"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:text="Price : 5745" />
+
+    <TextView
+        android:id="@+id/dis"
+        android:layout_width="292dp"
+        android:layout_height="92dp"
+        android:layout_alignStart="@+id/heading"
+        android:layout_alignLeft="@+id/heading"
+        android:layout_marginTop="45dp"
+
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:text="Price : A learning management system (LMS) is a type of eLearning software designed." />
+
+</RelativeLayout>
+
+
+
+
